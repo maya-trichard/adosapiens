@@ -1,0 +1,23 @@
+.barre {
+	background-color: #FFD8C7;
+	color:#443737;
+	list-style: none;
+	text-align: right;
+	padding: 20px 0 20px 0;
+}
+
+.barre > li {
+	display: inline-block;
+	padding: 0 25px 0 25px;
+	font-size: 15px;
+}
+
+.barre > li > a {
+	text-decoration: none;
+	color: #443737;
+}
+
+.barre > li > a:hover {
+	color: white;
+	background-color: #FFD8C7;
+}
